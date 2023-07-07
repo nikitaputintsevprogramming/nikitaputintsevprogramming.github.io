@@ -76,8 +76,6 @@
       </div>
     </div>
 
-
-
     <section class="attribution">
       <span>
         <h1>Теперь пробуем первую попавшуюся модель, с телефона уже пишет ошибку при попытке перейти в AR, якобы
@@ -89,7 +87,22 @@
 
     <!-- All you need to put beautiful, interactive 3D content on your site: -->
     <model-viewer src="assets/iron_armor.glb" ios-src="assets/iron_armor.usdz"
-      poster="assets/36cb8393-65c6-408d-a538-055ada20431b_poster-astronaut.png" alt="A 3D model of an astronaut"
+      alt="A 3D model of an astronaut"
+      shadow-intensity="1" camera-controls auto-rotate ar>
+    </model-viewer>
+
+    <section class="attribution">
+      <span>
+        <h1>Теперь пробуем вторую попавшуюся модель, с телефона уже пишет ошибку при попытке перейти в AR, якобы
+          обновите версию IOS(стоит свежая).Но модель можно вращать через VR на превью
+          Полигонов: 21.408(превыашет лимит который нам сказали)
+        </h1>
+      </span>
+    </section>
+
+    <!-- All you need to put beautiful, interactive 3D content on your site: -->
+    <model-viewer src="assets/sci-fi_fetus_capsule.glb" ios-src="assets/sci-fi_fetus_capsule.usdz"
+      alt="A 3D model of an astronaut"
       shadow-intensity="1" camera-controls auto-rotate ar>
     </model-viewer>
 
