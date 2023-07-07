@@ -20,6 +20,11 @@
 <body>
   <div id="card">
 
+    <button slot="ar-button"
+      style="background-color: white; border-radius: 4px; border: none; position: absolute; top: 16px; right: 16px; ">
+      👋 Привет Апполонам!
+    </button>
+
     <section class="attribution">
       <span>
         <h1>План действий AR/VR</h1>
@@ -43,16 +48,29 @@
       poster="assets/36cb8393-65c6-408d-a538-055ada20431b_poster-astronaut.png" alt="A 3D model of an astronaut"
       shadow-intensity="1" camera-controls auto-rotate ar>
     </model-viewer>
-    <button slot="ar-button"
-      style="background-color: white; border-radius: 4px; border: none; position: absolute; top: 16px; right: 16px; ">
-      👋 Привет Апполонам!
-    </button>
 
 
 
     <section class="attribution">
       <span>
-        <h1>Тестим размеры VR от Sketchfab</h1>
+        <h1>Теперь пробуем первую попавшуюся модель, с телефона уже пишет ошибку при попытке перейти в AR, якобы
+          обновите версию IOS(стоит свежая).Но модель можно вращать через VR на превью
+        </h1>
+      </span>
+    </section>
+
+    <!-- All you need to put beautiful, interactive 3D content on your site: -->
+    <model-viewer src="assets/iron_armor.glb" ios-src="assets/iron_armor.usdz"
+      poster="assets/36cb8393-65c6-408d-a538-055ada20431b_poster-astronaut.png" alt="A 3D model of an astronaut"
+      shadow-intensity="1" camera-controls auto-rotate ar>
+    </model-viewer>
+
+    <section class="attribution">
+      <span>
+        <h1>Sketchfab - у них уникальная система на сайте, достаточно просто загрузить модель к ним на сайт и уже можно
+          кркуить, перейти в VR, как на телефоне, так и на компе. Можно ставить авто прокручивание, как у model-viewer.
+          Но кнопку с лого и переходом на модель видимо не убрать...
+        </h1>
         <!-- <span>By <a href="https://poly.google.com/view/dLHpzNdygsg" target="_blank">Poly</a></span> -->
       </span>
       <!-- <a class="cc" href="https://creativecommons.org/licenses/by/2.0/" target="_blank">
@@ -67,6 +85,7 @@
         src="https://sketchfab.com/models/abea2fb2df7447ce81e999bba2f4f824/embed?autospin=1&autostart=1&preload=1">
       </iframe>
     </div>
+
 
   </div>
 
